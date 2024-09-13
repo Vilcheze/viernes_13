@@ -1,0 +1,305 @@
+/* Estilos para el encabezado */
+header {
+  background-image: linear-gradient(to right bottom, #c773c7, #c773c7, #c773c7, #c773c7, #c773c7, #c773c7, #c773c7, #c773c7, #c773c7, #c773c7, #c773c7, #c773c7);
+  color: #000000;
+  padding: 1px;
+  text-align: center;
+  border-radius: 5px;
+  margin-top: 0;
+  margin-bottom: 50px;
+  font-size: 15px auto;
+}
+
+/* Estilos para el cuerpo de la página */
+body {
+  background-image: linear-gradient(to right bottom, #9b0cd3, #9b0cd3, #9b0cd3, #9b0cd3, #9b0cd3, #9b0cd3, #9b0cd3, #9b0cd3, #9b0cd3, #9b0cd3, #9b0cd3, #9b0cd3);
+  font-family: 'Dosis', sans-serif;
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+}
+
+/* Estilos para la sección de canciones */
+.songs {}
+
+.container {}
+
+.canciones, .videos {
+  width: 80%;
+  margin: 0 auto;
+  background-image: linear-gradient(to right bottom, #6d0514, #810013, #4a272c, #542f34, #5e373c, #653d42, #6b4449, #724a4f, #775055, #7c555a, #815b60, #866166);
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+/* Estilos para la sección de cartas */
+.cartas {
+  width: 80%;
+  margin: 0 auto;
+  background-image: linear-gradient(to right bottom, #37171c, #401f24, #4a272c, #542f34, #5e373c, #653d42, #6b4449, #724a4f, #775055, #7c555a, #815b60, #866166);
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.mensaje {
+  max-width: 350px;
+  width: 80%;
+  max-height: 800px;
+  height: 80%;
+  margin-bottom: 30px;
+  margin-left: 15px;
+  margin-right: 15px;
+  background-image: linear-gradient(to right bottom, #f5f5f5, #f6f6f6, #f7f7f7, #f7f7f7, #f8f8f8, #f9f9f9, #f9fafa, #fafbfa, #fbfcfc, #fcfdfd, #fefefe, #ffffff);
+  padding: 20px;
+  border-radius: 10px;
+  text-align: justify;
+  display: inline-block;
+  font-size: 15px;
+}
+
+/* Estilos para las secciones de canciones y videos */
+.section1 {
+  margin-bottom: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+  background-image: linear-gradient(to right bottom, rgba(204, 204, 204, 0.9), rgba(210, 210, 210, 0.9), rgba(216, 216, 216, 0.9), rgba(223, 223, 223, 0.9), rgba(229, 229, 229, 0.9), rgba(233, 233, 233, 0.9), rgba(237, 237, 237, 0.9), rgba(241, 241, 241, 0.9), rgba(244, 244, 244, 0.9), rgba(247, 247, 247, 0.9), rgba(251, 251, 251, 0.9), rgba(254, 254, 254, 0.9));
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  display: inline-block;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.section2 {
+  margin-bottom: 30px;
+  margin-left: 5px;
+  margin-right: 5px;
+  background-image: linear-gradient(to right bottom, rgba(204, 204, 204, 0.9), rgba(210, 210, 210, 0.9), rgba(216, 216, 216, 0.9), rgba(223, 223, 223, 0.9), rgba(229, 229, 229, 0.9), rgba(233, 233, 233, 0.9), rgba(237, 237, 237, 0.9), rgba(241, 241, 241, 0.9), rgba(244, 244, 244, 0.9), rgba(247, 247, 247, 0.9), rgba(251, 251, 251, 0.9), rgba(254, 254, 254, 0.9));
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  display: inline-block;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+/* Estilos para la sección de fotos */
+.photos {
+  max-width: 300px;
+  width: 100%;
+  border-radius: 5px;
+}
+.img-container{
+  background-image: linear-gradient(to right bottom, rgba(204, 204, 204, 0.9), rgba(210, 210, 210, 0.9), rgba(216, 216, 216, 0.9), rgba(223, 223, 223, 0.9), rgba(229, 229, 229, 0.9), rgba(233, 233, 233, 0.9), rgba(237, 237, 237, 0.9), rgba(241, 241, 241, 0.9), rgba(244, 244, 244, 0.9), rgba(247, 247, 247, 0.9), rgba(251, 251, 251, 0.9), rgba(254, 254, 254, 0.9));
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+  display: inline-block;
+}
+.titulo_photo {
+  color: #2F1A1A;}
+
+/* Estilos para videos y fotos */
+video {
+  max-width: 500px;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.photos_container {
+  width: 80%;
+  margin: 0 auto;
+  background-image: url("imagen_final.jpg");
+  background-repeat: repeat-x;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: contain;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.img_caratulas {
+  max-width: 300px;
+  width: 100%;
+  border-radius: 5px;
+}
+audio{
+  max-width: 300px;
+  width: 100%;
+}
+
+.img_cartas {
+  max-width: 400px;
+  width: 100%;
+  border-radius: 5px;
+  float: left;
+  margin-right: 10px;
+}
+
+img:hover {
+  transform: scale(1.05);
+}
+
+/* Estilos para el botón de cambio */
+#toggleButton {
+  position: relative;
+  display: inline-block;
+  width: 120px;
+  height: 34px;
+  background-color: #4a2222;
+  color: white;
+  border-radius: 34px;
+  transition: all .3s;
+  border: 0;
+  display: center;
+}
+
+#toggleButton::before {
+  content: "";
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: white;
+  top: 4px;
+  left: 4px;
+  transition: all .3s;
+}
+
+#toggleButton.active {
+  background-color: #e27373;
+}
+
+#toggleButton.active::before {
+  transform: translateX(86px);
+}
+
+.boton {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+#toggleButton {
+  font-weight: bold;
+  z-index: 9999;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+audio:hover {
+  transform: scale(1.05);
+}
+
+h2 {
+  margin-bottom: 30px;
+  color: white;
+}
+
+p {
+  color: #2F1A1A;
+}
+
+video:hover {
+  transform: scale(1.05);
+}
+
+.songs {
+  margin-bottom: 100px;
+}
+
+.final {
+  width: 100%;
+}
+
+/* Estilos para el canvas de fondo */
+#canvas-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+#my-canvas {
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2.0;
+}
+
+/* Estilos para el pie de página */
+footer {
+  background-image: linear-gradient(to right bottom, #37171c, #39191e, #3b1a1f, #3d1c21, #3f1e23, #401f24, #422126, #432227, #442428, #442529, #45272b, #45282c);
+  height: 50px;
+  padding: 5px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.p_footer {
+  color: #fff;
+}
+/* Estilos para escritorio */
+@media (min-width: 768px) {
+  /* Coloca tus estilos de escritorio aquí */
+}
+
+/* Estilos para dispositivos móviles */
+@media (max-width: 767px) {
+  /* Reduce el tamaño de fuente para dispositivos móviles */
+  header {
+    font-size: 14px; /* Puedes ajustar el valor según tus necesidades */
+  }
+
+  body {
+    font-size: 14px; /* Puedes ajustar el valor según tus necesidades */
+  }
+
+  .mensaje {
+    font-size: 14px; /* Puedes ajustar el valor según tus necesidades */
+  }
+
+  .section1, .section2 {
+    font-size: 18px;
+    padding: 15px;
+     /* Puedes ajustar el valor según tus necesidades */
+  }
+  .canciones, .videos {
+  width: 80%;
+  margin: 0 auto;
+  background-image: linear-gradient(to right bottom, #37171c, #401f24, #4a272c, #542f34, #5e373c, #653d42, #6b4449, #724a4f, #775055, #7c555a, #815b60, #866166);
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+}
+h1{
+  font-size: 25px;
+}
+.photos_container {
+  width: 85%;
+  margin: 0 auto;
+  background-image: url("pic (3).jpg");
+  margin-bottom: 20px;
+
+  /* Agrega tamaños de fuente apropiados para otros elementos según sea necesario */
+}
+.img-container{
+  padding: 10px ;
+}
+.photos{
+  max-width: 260px;
+}
+
+}
